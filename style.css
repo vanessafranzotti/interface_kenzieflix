@@ -24,16 +24,24 @@
 .box{
     border-radius: 4px;
     display:flexbox;
-    width:160px;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
     overflow: hidden;
     background-color: rgba(148, 143, 143, 0.589);
+    align-items: center;
 }
 .box:hover{
     background-color: blue;
+    
 }
+
 .img_perfil{
     display: flex;
     align-self: center;
+    align-items: center;
+    width: auto; 
+    height: auto;  
     
     
 }
@@ -45,6 +53,7 @@
 }
 .gerenciar_perfis:hover{
     background-color: rgba(6, 101, 226, 0.616);
+    
 }
   
 
