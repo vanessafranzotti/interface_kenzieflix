@@ -1,16 +1,32 @@
 .container{
-    display:flexbox;
-    max-width: 700px;   
-    justify-content:center;
-    margin: 10px;
-    padding: 10px;
+    display:flex;
+    max-width: 700px;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+
 
 }
+.box{
+    display:flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    overflow: hidden;
+    background-color: rgba(148, 143, 143, 0.589);
+    
+}
+
 .logo{
     margin: 5px;
     text-align: center;
 }
 .fundo1{
+    align-items: center;
     background-color: black;
     padding: 0;
     margin: 0;
@@ -23,52 +39,66 @@
     font-weight: 200;
     text-align: center;
 }
-.box{
-    border-radius: 6px;
-    display:flexbox;
-    width: 160px;
-    height: 160px;
-    margin: 10px;
-    overflow: hidden;
-    background-color: rgba(148, 143, 143, 0.589);
-
-    
-}
 
 .nome_usuario1{
     color: white;
-    text-align: end;
+    text-align: bottom;
     padding-bottom: 1px;
     
 }
+.nome1{
+    color:white;
+    text-align: center;
+    align-items: center;
+
+}
+.nome2{
+    color:white;
+    text-align: center;
+    align-items: center;
+
+}
+.nome3{
+    color:white;
+    text-align: center;
+    align-items: center;
+
+}
+.nome4{
+    color:white;
+    text-align: center;
+    align-items: center;
+
+}
 .box:hover{
-    background-color: rgba(23, 197, 154, 0.349);
-    
+    background-color: #17c59a59;
+    width: 150px;
+    height: 150px;
+    border-bottom: 100%;
 }
 
 .img_perfil{
     display: flex;
-    align-self: center;
-    align-items: center;
+    align-items: 160px;
+    justify-content: 160px;
     width: auto; 
     height: auto;  
     
     
 }
 .gerenciar_perfis{
-    color: white;
-    font-size: 15px;
-    background-color: black;
-    border: 6px solid black;
-    margin: 8px;
-    padding: 4px;
-    border-radius: 5px;
-    align-items: center;
 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+   
 }
-.gerenciar_perfis:hover{
-    background-color: rgba(6, 101, 226, 0.616);
+.botao_perfil:hover{
+    background-color: #17c59a59;
     
 }
-  
 
+  
